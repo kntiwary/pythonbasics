@@ -25,6 +25,7 @@ class Bird:
         print("Swim Faster")
 
 class Penguim(Animal,Bird):
+    "This is Penguim class"
     def __init__(self):
         super().__init__()
         print("Penguim is ready")
@@ -37,6 +38,12 @@ class Penguim(Animal,Bird):
         print("Run Faster")
 
 peggy = Penguim()
+
 peggy.whoIsThis()
+
+
+print (Penguim.__doc__)
+
+
 
 
